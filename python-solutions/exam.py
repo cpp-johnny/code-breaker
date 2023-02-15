@@ -3,6 +3,5 @@ num = int(input())
 if num == 1:
     print("Hello World")
 else:
-    a = int(input())
-    b = int(input())
+    a, b = map(int, input().split())
     print(a*b)
